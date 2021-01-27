@@ -9,7 +9,7 @@ loginBtn.addEventListener('click', function () {
 //deposite button event handler
 const depositBtn = document.getElementById('addDeposit');
 depositBtn.addEventListener('click', function () {
-    
+
     const depositNumber = getInputNumber('depositAmount');
     updateSpanText("currentDeposit", depositNumber);
     updateSpanText("currentBalance", depositNumber);
